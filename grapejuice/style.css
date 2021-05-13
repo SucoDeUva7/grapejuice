@@ -1,6 +1,8 @@
 body {
   background: #66cc66;
   font-family: halvetica, monospace;
+  max-width: 700px;
+  margin: auto;
 }
 
 #title, .subtitle, .post_title {
@@ -10,6 +12,7 @@ body {
 #title {
   font-size: 30px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 a {
@@ -41,6 +44,7 @@ ul {
   margin: 0;
   margin-bottom: 15px;
   text-transform: capitalize;
+  text-align: justify;
 }
 
 .post_image {
