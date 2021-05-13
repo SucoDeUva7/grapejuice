@@ -1,0 +1,66 @@
+body {
+  background: #66cc66;
+  font-family: halvetica, monospace;
+  max-width: 700px;
+  margin: auto;
+}
+
+#title, .subtitle, .post_title {
+  color: purple;
+}
+
+#title {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: magenta;
+}
+
+ul {
+  list-style-image: url("uvinha.png");
+}
+
+.post_title {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.post {
+  background: #666666;
+  padding: 15px;
+  border: 5px dashed darkmagenta;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.post_content {
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.post_image {
+  margin-bottom: 15px;
+}
+
+.photo {
+  border: 10px solid darkmagenta;
+  border-radius: 50%;
+}
+
+.contacts_list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contacts_listr li a {
+  text-decoration: none;
+}
